@@ -1,0 +1,84 @@
+.hero {
+    min-height: 100vh;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding-top: 93px;
+    padding-bottom: 30px;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 1.22;
+    font-size: 1.8rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    line-height: 1.21;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 60px;
+}
+
+nav a {
+    font-size: 1.8rem;
+    line-height: 1.22;
+}
+
+nav li:first-child a {
+    font-weight: bold;
+}
+
+.hero-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.hero-content > div {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    line-height: 1.21;
+    font-size: 6.4rem;
+    margin-bottom: 26px;
+}
+
+.hero-content p {
+    font-size: 2.4rem;
+    line-height: 1.2;
+    margin-bottom: 106px;
+}
+
+.hero-content a {
+    text-decoration: underline;
+    font-size: 1.8rem;
+    line-height: 1.22;
+}
