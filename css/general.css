@@ -1,6 +1,7 @@
 html, body {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 .container {

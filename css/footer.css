@@ -1,0 +1,33 @@
+footer {
+    padding-top: 93px;
+    padding-bottom: 189px;
+    background-color: #FFFAF2;
+}
+
+footer a {
+    color: #000;
+}
+
+footer h2 {
+    margin-bottom: 52px;
+}
+
+.footer-row {
+    display: flex;
+}
+
+.footer-row ul {
+    flex-grow: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 0;
+}
+
+.footer-row ul li {
+    width: 50%;
+}
+
+.footer-row .contact {
+    flex-grow: 1;
+}
+
