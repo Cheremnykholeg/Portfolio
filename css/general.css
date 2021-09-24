@@ -19,3 +19,9 @@ html, body {
     font-weight: bold;
     line-height: 1.21;
 }
+
+.to-top {
+    position: fixed;
+    bottom: 70px;
+    right: 180px;
+}
