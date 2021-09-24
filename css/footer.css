@@ -27,7 +27,17 @@ footer h2 {
     width: 50%;
 }
 
+.footer-row a {
+    line-height: 1.22;
+    font-size: 1.8rem;
+}
+
 .footer-row .contact {
     flex-grow: 1;
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
