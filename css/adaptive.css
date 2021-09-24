@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .portfolio h2 {
+        text-align: center;
+    }
+    .portfolio-content h3 {
+        text-align: center;
+    }
+    .portfolio-row {
+        display: block;
+    }
+    .portfolio-row p {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .buttons {
+        display: none;
+    }
+    .portfolio-images {
+        justify-content: center;
+    }
+}
