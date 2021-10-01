@@ -1,0 +1,378 @@
+@media screen and (max-width: 1025px) {
+    .hero {
+        width: 100vw;
+    }
+    .container {
+        width: 80%;
+    }
+    .skills {
+        width: 100%;
+    }
+    .skills-row {
+        gap: 50px;
+    }
+    .progress-bar {
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: 90vh;
+    }
+    .container {
+        max-width: 80%;
+    }
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        display: none;
+    }
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 1.2;
+        margin-bottom: 13px;
+    }
+    .hero-content>div {
+        flex-grow: 0;
+        padding-bottom: 25px;
+    }
+    .hero-content p {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .hero-content a {
+        text-align: center;
+    }
+    .about {
+        padding-top: 25px;
+        padding-bottom: 8px;
+    }
+    .about h2 {
+        margin-bottom: 19px;
+    }
+    .title {
+        text-align: center;
+    }
+    .about p {
+        font-size: 1.2rem;
+        line-height: 1.25;
+        text-align: center;
+    }
+    .skills {
+        padding-top: 25px;
+        margin: 0;
+    }
+    .skills h2 {
+        margin-bottom: 25px;
+    }
+    .skills-row {
+        display: block;
+    }
+    .skills-row img {
+        width: 80%;
+        margin-left: 30px;
+    }
+    .skills-description-title, .skills-description-content {
+        line-height: 2.08;
+        font-size: 1.2rem;
+    }
+    .portfolio {
+        padding-top: 25px;
+        padding-bottom: 23px;
+    }
+    .skills-description-title {
+        width: 90px;
+    }
+    .portfolio-content p {
+        font-size: 1.2rem;
+        line-height: 1.25;
+        width: 100%;
+    }
+    footer {
+        padding-top: 26px;
+        padding-bottom: 50px;
+    }
+    .footer-row a {
+        font-size: 1.4rem;
+    }
+    .portfolio h2 {
+        text-align: center;
+    }
+    .portfolio-content h3 {
+        text-align: center;
+    }
+    .portfolio-row {
+        display: block;
+    }
+    .portfolio-row p {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .buttons {
+        display: none;
+    }
+    .portfolio-images {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .hero {
+        min-height: 90vh;
+    }
+    .container {
+        max-width: 80%;
+    }
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        display: none;
+    }
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 1.2;
+        margin-bottom: 13px;
+    }
+    .hero-content>div {
+        flex-grow: 0;
+        padding-bottom: 25px;
+    }
+    .hero-content p {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .hero-content a {
+        text-align: center;
+    }
+    .about {
+        padding-top: 25px;
+        padding-bottom: 8px;
+    }
+    .about h2 {
+        margin-bottom: 19px;
+    }
+    .title {
+        text-align: center;
+    }
+    .about p {
+        font-size: 1.2rem;
+        line-height: 1.25;
+        text-align: center;
+    }
+    .skills {
+        padding-top: 25px;
+        margin: 0;
+    }
+    .skills h2 {
+        margin-bottom: 25px;
+    }
+    .skills-row {
+        display: block;
+    }
+    .skills-row img {
+        width: 80%;
+        margin-left: 30px;
+    }
+    .skills-description-title, .skills-description-content {
+        line-height: 2.08;
+        font-size: 1.2rem;
+    }
+    .portfolio {
+        padding-top: 25px;
+        padding-bottom: 23px;
+    }
+    .skills-description-title {
+        width: 90px;
+    }
+    .portfolio-content p {
+        font-size: 1.2rem;
+        line-height: 1.25;
+        width: 100%;
+    }
+    footer {
+        padding-top: 26px;
+        padding-bottom: 50px;
+    }
+    .footer-row a {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .hero {
+        min-height: 90vh;
+    }
+    .container {
+        max-width: 80%;
+    }
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        display: none;
+    }
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 1.2;
+        margin-bottom: 13px;
+    }
+    .hero-content>div {
+        flex-grow: 0;
+        padding-bottom: 25px;
+    }
+    .hero-content p {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .hero-content a {
+        text-align: center;
+    }
+    .about {
+        padding-top: 25px;
+        padding-bottom: 8px;
+    }
+    .about h2 {
+        margin-bottom: 19px;
+    }
+    .title {
+        text-align: center;
+    }
+    .about p {
+        font-size: 1.2rem;
+        line-height: 1.25;
+        text-align: center;
+    }
+    .skills {
+        padding-top: 25px;
+        margin: 0;
+    }
+    .skills h2 {
+        margin-bottom: 25px;
+    }
+    .skills-row {
+        display: block;
+    }
+    .skills-row img {
+        width: 80%;
+        margin-left: 30px;
+    }
+    .skills-description-title, .skills-description-content {
+        line-height: 2.08;
+        font-size: 1.2rem;
+    }
+    .portfolio {
+        padding-top: 25px;
+        padding-bottom: 23px;
+    }
+    .skills-description-title {
+        width: 90px;
+    }
+    .portfolio-content p {
+        font-size: 1.2rem;
+        line-height: 1.25;
+        width: 100%;
+    }
+    footer {
+        padding-top: 26px;
+        padding-bottom: 50px;
+    }
+    .footer-row a {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .hero {
+        min-height: 90vh;
+    }
+    .container {
+        max-width: 80%;
+    }
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        display: none;
+    }
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 1.2;
+        margin-bottom: 13px;
+    }
+    .hero-content>div {
+        flex-grow: 0;
+        padding-bottom: 25px;
+    }
+    .hero-content p {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .hero-content a {
+        text-align: center;
+    }
+    .about {
+        padding-top: 25px;
+        padding-bottom: 8px;
+    }
+    .about h2 {
+        margin-bottom: 19px;
+    }
+    .title {
+        text-align: center;
+    }
+    .about p {
+        font-size: 1.2rem;
+        line-height: 1.25;
+        text-align: center;
+    }
+    .skills {
+        padding-top: 25px;
+        margin: 0;
+    }
+    .skills h2 {
+        margin-bottom: 25px;
+    }
+    .skills-row {
+        display: block;
+    }
+    .skills-row img {
+        width: 80%;
+        margin-left: 30px;
+    }
+    .skills-description-title, .skills-description-content {
+        line-height: 2.08;
+        font-size: 1.2rem;
+    }
+    .portfolio {
+        padding-top: 25px;
+        padding-bottom: 23px;
+    }
+    .skills-description-title {
+        width: 90px;
+    }
+    .portfolio-content p {
+        font-size: 1.2rem;
+        line-height: 1.25;
+        width: 100%;
+    }
+    footer {
+        padding-top: 26px;
+        padding-bottom: 50px;
+    }
+    .footer-row a {
+        font-size: 1.4rem;
+    }
+}
